@@ -1,0 +1,125 @@
+{
+  "name": "The Cosmic Architect - Portfolio",
+  "short_name": "Cosmic Portfolio",
+  "description": "A space-themed portfolio website for a software engineer exploring the cosmos of code",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00001a",
+  "theme_color": "#0A192F",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["portfolio", "technology", "education"],
+  "screenshots": [
+    {
+      "src": "/images/screenshots/desktop-home.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Home page on desktop"
+    },
+    {
+      "src": "/images/screenshots/mobile-home.jpg",
+      "sizes": "375x667",
+      "type": "image/jpeg",
+      "platform": "narrow",
+      "label": "Home page on mobile"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Projects",
+      "short_name": "The Hangar",
+      "description": "View project database",
+      "url": "/projects",
+      "icons": [
+        {
+          "src": "/icons/shortcut-projects.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "short_name": "Personal Log",
+      "description": "View commander profile",
+      "url": "/about",
+      "icons": [
+        {
+          "src": "/icons/shortcut-about.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Communications",
+      "description": "Open communications array",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/icons/shortcut-contact.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://cosmic-architect.dev"
+    }
+  ],
+  "prefer_related_applications": false
+}
