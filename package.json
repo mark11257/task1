@@ -1,16 +1,55 @@
 {
-  "name": "backendcourse",
+  "name": "cosmic-architect-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "A space-themed portfolio website for a software engineer with admin dashboard",
+  "private": true,
+  "workspaces": [
+    "portfolio",
+    "admin",
+    "shared"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:e2e": "playwright test",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "portfolio:dev": "npm run dev --workspace=portfolio",
+    "portfolio:build": "npm run build --workspace=portfolio",
+    "admin:dev": "npm run dev --workspace=admin",
+    "admin:build": "npm run build --workspace=admin",
+    "setup": "npm install && npm run build",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md,json}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,md,json}\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "validator": "^13.12.0",
-    "yargs": "^17.7.2"
-  }
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "prettier": "^3.1.0",
+    "turbo": "^1.11.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/cosmic-architect-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "space-theme",
+    "software-engineer",
+    "nextjs",
+    "react",
+    "admin-dashboard",
+    "cosmic",
+    "architect"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT"
 }
